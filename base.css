@@ -2,30 +2,35 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: #f1f1f1;
+    background-color: #B6F2E9 ;
     display: flex;
     justify-content: center;
 }
 
 .wrapper {
-    width: 1200px;
+    width: 1500px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: #B6F2E9;
 }
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+.image{
+    width: 100%;
+    display: flex;
+}
 .menu {
     width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+    background-color:#B6F2E9;
+    padding: 10px 10px 10px 10px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #D1B6A1(5, 108, 108);
     min-height: 150px;
+    height: auto;
 }
 .content {
     background-color: white;
@@ -33,6 +38,21 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color:white;
     min-height: 150px;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li a{
+    display: flex;
+    padding: 20px 10px;
+    color: #2D3736;
+    text-decoration: none;
+    border-radius: 10px 0;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: #5B8C85;
 }
