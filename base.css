@@ -22,6 +22,10 @@ body {
     width: 100%;
     display: flex;
 }
+.video {
+    width: 100%;
+    display: flex;
+}
 .menu {
     width: 15%;
     background-color:#B6F2E9;
