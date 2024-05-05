@@ -57,6 +57,43 @@ nav ul li a{
     border-radius: 10px 0;
 }
 nav ul li a:hover{
-    color: white;
+    color: #2D3736;
     background-color: #5B8C85;
+}
+table {
+    width: 100%;
+    border: #707070;
+    
+}
+table thead th{
+    background-color: #2D3736;
+    color: white;
+}
+table tr:nth-child(even){
+    background-color: #f1f1f1
+}
+table tr:hover td {
+    background-color: #B6F2E9
+}
+.row{
+    margin: 20px;
+    display: block;
+    
+}
+label{
+    margin: 5px;
+    display: inline-block;
+    text-align: right;
+    width: 50px;
+}
+fieldset{
+    margin: 10px 0;
+    border-radius: 8px;
+}
+textarea{
+    display: grid;
+    margin: 10px 0px;
+}
+.msg {
+    margin: 20px 0px;
 }
